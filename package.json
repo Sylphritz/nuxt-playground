@@ -7,7 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "pages:dev": "wrangler pages dev --compatibility-date=2023-09-19 --proxy 3000 -- pnpm run dev",
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-09-19 --persist-to=./wrangler/state --proxy 3008 -- pnpm dev",
     "pages:deploy": "npm run build && wrangler pages deploy ./dist"
   },
   "devDependencies": {

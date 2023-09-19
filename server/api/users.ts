@@ -1,6 +1,7 @@
-export default defineEventHandler(({ context }) => {
+export default defineEventHandler((event) => {
+  const config = useRuntimeConfig()
   console.log('context')
-  console.log(process.env.DEV_DB)
+  // console.log(process.env)
 
-  return 'Hello users'
+  return event.context
 })
