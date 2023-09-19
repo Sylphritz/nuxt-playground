@@ -1,0 +1,14 @@
+name = "playground"
+main = "./.output/server/index.mjs"
+workers_dev = true
+compatibility_date = "2023-09-19"
+account_id = "dd63008c4d7cbcebaca6ac2bed8c2fb3"
+
+[site]
+bucket = ".output/public"
+
+[[d1_databases]]
+binding = "DEV_DB"
+database_name = "d1-playground"
+database_id = "56d0e5fb-790e-4836-b9de-1ba5446227fa"
+preview_database_id = "DEV_DB"
